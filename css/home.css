@@ -1,0 +1,262 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 15px 10px -15px #111;
+    margin-bottom: 30px;
+}
+
+.bran {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+.bran a {
+    text-decoration: none;
+    color: black;
+}
+
+.b-right {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.Sign-in {
+    border: 2px solid gray;
+    font-size: 25px;
+    padding: 5px 40px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.Sign-up {
+    border: 2px solid gray;
+    font-size: 25px;
+    padding: 5px 40px;
+    border-radius: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.b-right a {
+    text-decoration: none;
+}
+
+.text-meu {
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.text-meu:hover {
+    transition: 0.1s;
+    font-size: 25px;
+    color: green;
+    border-bottom: 5px solid green;
+}
+
+.img-logo {
+    height: 80px;
+}
+
+.offcanvas-header h5 {
+    color: green;
+}
+
+.icon_memu {
+    height: 60px;
+}
+
+.contain-block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.block-left {
+    width: 50%;
+    height: 35vh;
+    background-image: url("../img/baner1.jpg");
+    background-size: 100% 100%;
+}
+
+.block-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    height: 35vh;
+    background-color: #d2a04a;
+}
+
+.block-left1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    height: 50vh;
+    background-color: #76232f;
+}
+
+.block-right1 {
+    width: 50%;
+    height: 50vh;
+    background-image: url("../img/baner2.jpg");
+    background-size: 100% 100%;
+
+}
+
+.block-left2 {
+    width: 50%;
+    height: 50vh;
+    background-image: url("../img/baner3.jpg");
+    background-size: 100% 100%;
+
+}
+
+.block-right2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    height: 50vh;
+    background-color: #b04a5a;
+
+}
+
+.block-left1 h2 {
+    color: white;
+}
+
+.block-left1 p {
+    color: white;
+}
+
+.block-right2 h2 {
+    color: white;
+}
+
+.block-right2 p {
+    color: white;
+}
+
+.block-right p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bt {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bt1 {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.bt2 {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer {
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0px -15px 10px -15px #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 28px;
+}
+
+.footer {
+    border-bottom: 1px solid black;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+
+.image-user {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url("../img/image_user.png");
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.text-toggle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Name_user {
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+    color: rgb(128, 128, 128);
+    font-weight: 500;
+}
+
+.other:hover {
+    background-color: gray;
+    color: white;
+}
+
+.offcanvas-body a {
+    text-decoration: none;
+}
+
+.img-icon {
+    margin-right: 10px;
+}

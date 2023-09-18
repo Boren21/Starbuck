@@ -41,7 +41,7 @@
 .scroll {
     display: flex;
     overflow-x: scroll;
-    padding: 20px 0pc;
+    padding: 20px 0px;
 }
 
 .product {
@@ -151,16 +151,55 @@ a {
     background-color: #05714B;
     color: white;
 }
-@media(max-width:400px) {
-    .l-logo {
-        height: 50px;
-    }
-
-    .nav-bar {
+.discount-text{
+    font-size: 10px;
+}
+@media(max-width:1200px){
+    .menu_dis{
+        padding: 5px;
+        margin: 5px;
         font-size: 14px;
     }
-
-    .redem {
-        font-size: 11px;
+}
+@media(max-width:770px){
+    .menu_dis{
+        padding: 4px;
+        margin: 1px;
+        font-size: 9px;
+        text-align: center;
+    }
+    .text-header-product {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .scroll {
+        display: flex;
+        overflow-x: scroll;
+        padding: 5px 0px;
+    }
+    .product {
+        width: 140px;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+    
+    .img-product { 
+        width: 100px;
+        height: auto;
+    }
+    .spacial {
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background-size: 100% 100%;
+        padding-top: 10px;
+        right: 30px;
+        font-size: 12px;
+        top: -23px;
+    
+    }
+    .discount-text{
+        font-size:8px;
     }
 }

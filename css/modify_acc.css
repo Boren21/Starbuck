@@ -32,3 +32,24 @@ input,select{
     justify-content: center;
     align-items: center;
 }
+.img-icon-deposit {
+    height: 50px;
+}
+
+@media(max-width:500px) {
+    .img-icon-deposit {
+        height: 25px;
+    }
+
+    input,
+    select {
+        height: 22px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .bt-submit{
+        margin-top: 15px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+}
